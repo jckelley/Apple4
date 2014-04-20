@@ -1,8 +1,8 @@
 
 
 cache1D: cache1D.o
-	g++ -Wall cache1D.o -o cache1D
+	gcc -Wall cache1D.o -o cache1D -m32
 
 cache1D.o: cache1D.c
-	g++ -Wall -c cache1D.c
+	gcc -Wall -c cache1D.c -m32
 
