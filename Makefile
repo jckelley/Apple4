@@ -1,4 +1,4 @@
-
+all: cache1D cache2Dcols cache2Drows
 
 cache1D: cache1D.o
 	gcc -Wall cache1D.o -o cache1D -m32
