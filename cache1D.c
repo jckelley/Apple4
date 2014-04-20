@@ -9,5 +9,6 @@ int main()
     {
         arr[index] = -3;
     }
+    return 0;
 
 }
