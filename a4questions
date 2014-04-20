@@ -15,21 +15,48 @@ Describe how you tested your code to verify that it works.
 
 What do you get from running pin with a block size of 4 bytes?
 
+Instruction cache misses:   5810
+Instruction cache references:   10099999
+Data cache misses:      2007535
+Data cache references:      10049263
+
 What is the hit ratio for the I-cache with a block size of 4 bytes?
+
+0.0005752475817076813
 
 What is the hit ratio for the D-cache with a block size of 4 bytes?
 
+0.1997693761224082
+
 What do you get from running pin with a block size of 32 bytes?
+
+Instruction cache misses:   1104
+Instruction cache references:   10099999
+Data cache misses:      257263
+Data cache references:      10049263
 
 What is the hit ratio for the I-cache with a block size of 32 bytes?
 
+0.00010930694151553876
+
 What is the hit ratio for the D-cache with a block size of 32 bytes?
+
+0.025600185804670453
 
 What do you get from running pin with a block size of 64 bytes?
 
+Instruction cache misses:   651
+Instruction cache references:   10099999
+Data cache misses:      134312
+Data cache references:      10049263
+
 What is the hit ratio for the I-cache with a block size of 64 bytes?
 
+6.445545192628237e-05
+
 What is the hit ratio for the D-cache with a block size of 64 bytes?
+
+0.013365358235723357
 
 Which block size is best for the I-cache?  Why?
 
