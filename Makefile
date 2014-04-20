@@ -31,7 +31,7 @@ cache2Dcols.o: cache2Dcols.c
 	/p/course/cs354-common/public/cache/pin -t /p/course/cs354-common/public/cache/source/tools/Memory/obj-ia32/allcache.so -is 32768 -ia 1 -ib 64 -ds 32768 -da 1 -db 64 -- cache2Dcols
 
 cache2Drows: cache2Drows.o
-	gcc -Wall cache2Drows.o -o cache1D -m32
+	gcc -Wall cache2Drows.o -o cache2Drows -m32
 
 cache2Drows.o: cache2Drows.c
 	gcc -Wall -c cache2Drows.c -m32
