@@ -1,12 +1,12 @@
 
-int arr[1000][2000];
+int arr[2000][1000];
 
 int main()
 {
     int row,column;
-    for (column = 0; column < 2000; column++)
+    for (column = 0; column < 1000; column++)
     {
-        for (row = 0; row < 1000; row++)
+        for (row = 0; row < 2000; row++)
         {
             arr[row][column] = -3;
         }

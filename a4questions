@@ -64,10 +64,12 @@ Which block size is best for the I-cache?  Why?
 
     64 bytes, it had a smaller ratio, which meant that misses were less frequent. Less frequent misses implies that there was less CPU logic and power consumption, thus it was more efficient.
 
-    
+
 
 Which block size is best for the D-cache?  Why? In what way does the block 
   size affect the hit ratio for this program?
+
+    64 bytes, it had a smaller ratio, which meant that misses were less frequent. Less frequent misses implies that there was less CPU logic and power consumption, thus it was more efficient.
   
 
 cache2Drows
@@ -93,18 +95,18 @@ cache2Dcols
 
 What do you get from running pin with a block size of 64 bytes?
 
-    Instruction cache misses:   656
-    Instruction cache references:   16114050
-    Data cache misses:      1960417
-    Data cache references:      12059274
+    Instruction cache misses:   652
+    Instruction cache references:   16107054
+    Data cache misses:      2005167
+    Data cache references:      12054276
 
 What is the hit ratio for the I-cache with a block size of 64 bytes?
 
-    4.070981534747627e-05
+    4.047915900697918e-05
 
 What is the hit ratio for the D-cache with a block size of 64 bytes?
 
-    0.16256509305618233
+    0.16634487214329588
 
 
 Comparison of cache2Drows and cache2Dcols
