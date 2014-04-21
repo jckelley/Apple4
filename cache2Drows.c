@@ -16,7 +16,7 @@ int main()
 	int row,column; //The Row and Column indicies.
 	for (row = 0; row < 2000; row++)
 	{
-		for (column=0; column < 1000; column++)
+		for (column = 0; column < 1000; column++)
 		{
 			twoDArray[row][column] = -3;
 		}

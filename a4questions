@@ -115,6 +115,9 @@ Comparison of cache2Drows and cache2Dcols
 Compare the performance (hit ratios) of the I-cache for these 2 programs.
 Justify your statistics.
 
+    They are relativley similar because the number of instructions performed are the same.
+
 Compare the performance (hit ratios) of the D-cache for these 2 programs.
 Explain any differences.
 
+    The cache2Dcols program has many more misses. Since our array stores data as columns within rows, accessing a single column, element by element, requires accessing each row, one by one, again and again for each column.  This means that when the data is stored in a chache, less of this data will be used before we haved moved on to a different region of memory, which requires the cache to be reloaded again. Hence, the cache2Dcols program requires the cahce to be used less for each time it is loaded, and hence causes more misses overall.
